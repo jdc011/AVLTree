@@ -1,0 +1,12 @@
+This is an AVL tree. It is made up of a tree and a node class. The tree itself
+is made up of the nodes. There are also drivers that test this tree each with
+different data types since this is a polymorphic generic container. Templates
+make that passible. THe drivers implement file reading specified by the command
+line to test the tree. Multiple test files are provided, each with different 
+data types.Because this is an AVL tree, unlike a regular binary tree, there is a
+balancing feature that executes when a defined balance threshold has been 
+surpassed. This tree has an insert, find, and remove function. There is a well 
+formated print function of the tree and all theindividual nodes in the tree. 
+Post order deletion is implemented to prevent memory leaks. This tree also 
+features width of each node, levels of each node, and the depth of the tree 
+itself.
